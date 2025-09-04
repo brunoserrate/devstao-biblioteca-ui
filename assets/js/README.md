@@ -1,0 +1,1 @@
+Aqui ficarão os arquivos JS do projeto.

@@ -1,11 +1,56 @@
+:root {
+    --amarelo: #FFDD57;
+    --branco: #F2F6FC;
+    ---preto: #0B1215;
+}
+
+
 .text-center {
     text-align: center;
 }
 
 .text-white {
-    color: #F2F6FC;
+    color: var(--branco);
+}
+
+.yellow {
+    background-color: var(--amarelo);
 }
 
 .bg-dark {
-    background-color: #0B1215;
+    background-color: var(---preto);
+}
+
+.bg-white {
+    background-color: var(--branco);
+}
+
+.border-white {
+    border: none;
+   border-bottom: var(--branco) 2px solid;
+
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+.padding {
+    padding: 8px;
+}
+
+.border {
+    border: none
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }

@@ -1,7 +1,7 @@
 :root {
     --amarelo: #FFDD57;
     --branco: #F2F6FC;
-    ---preto: #0B1215;
+    --preto: #0B1215;
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 .bg-dark {
-    background-color: var(---preto);
+    background-color: var(--preto);
 }
 
 .bg-white {

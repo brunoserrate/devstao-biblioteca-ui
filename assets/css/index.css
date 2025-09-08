@@ -1,11 +1,26 @@
-.text-center {
-    text-align: center;
+p {
+  margin: 8px;
 }
 
-.text-white {
-    color: #F2F6FC;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.bg-dark {
-    background-color: #0B1215;
+.lista-generos {
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-direction: column; /* um embaixo do outro */
+  padding-left: 0px;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1a222e;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
 }

@@ -1,81 +1,9 @@
 
 :root {
-  --amarelo: #FFDD57;
-  --preto: #1a222e;
+  --amarelo: #ffc457;
+  --preto: #2e2e2e;
   --branco: white;
 
-}
-
-p {
-  margin: 8px;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-.lista-generos {
-  display: block;
-}
-
-ul {
-  display: flex;
-  flex-direction: column;
-  /* um embaixo do outro */
-  padding-left: 0px;
-}
-
-.sidebar {
-  width: 250px;
-  background-color: var(--branco);
-  color: var(--preto);
-  padding: 20px;
-  min-height: 100vh;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-white {
-  color: var(--branco);
-}
-
-.yellow {
-  background-color: var(--amarelo);
-}
-
-.bg-dark {
-  background-color: var(--preto);
-}
-
-.bg-white {
-  background-color: var(--branco);
-}
-
-.border-white {
-  border: none;
-  border-bottom: var(--branco) 2px solid;
-
-}
-
-.rounded {
-  border-radius: 4px;
-}
-
-.padding {
-  padding: 8px;
-}
-
-.border {
-  border: none
-}
-
-.align-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fex-col {
@@ -99,15 +27,108 @@ body {
 
 ul {
   display: flex;
+  flex-direction: column;
+  /* um embaixo do outro */
+  padding-left: 0px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: var(--branco);
+}
+
+.yellow {
+  background-color: var(--amarelo); 
+  
+}
+.text-yellow {
+  color: var(--amarelo);
+}
+.bg-dark {
+  background-color: var(--preto);
+}
+
+.bg-white {
+  background-color: var(--branco);
+}
+
+.border-white {
+  border: none;
+  border-bottom: var(--branco) 2px solid;
+
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.padding {
+  padding: 16px;
+}
+
+.border {
+  border: none
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-svg {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: -20%;
+  margin-top: 2%;
+}
+
+
+
+p {
+  margin: 8px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.lista-generos {
+  display: block;
+}
+
+ul {
+  display: flex;
   flex-direction: column; /* um embaixo do outro */
   padding-left: 0px;
 }
 
 .sidebar {
   width: 250px;
-  background-color: #1a222e;
-  color: white;
+  background-color: var(--preto);
+  color: var(--branco);
   padding: 20px;
   min-height: 100vh;
+  
+}
+.cadastro-sidebar {
+  width: 25%;
+  background-color: var(--preto);
+  color: var(--branco);
+  padding: 20px;
+  min-height: 100vh;
+  
 }
 
+
+.posicao-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+}

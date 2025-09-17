@@ -1,16 +1,30 @@
-
 :root {
-  --amarelo: #ffc457;
+  --amarelo: #FFD100;
   --preto: #2e2e2e;
-  --branco: white;
+  --branco: rgb(224, 224, 224);
 
 }
+
+html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--branco);
+    }
+
+   
+
 
 .fex-col {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 
 p {
   margin: 8px;
@@ -42,12 +56,14 @@ ul {
 }
 
 .yellow {
-  background-color: var(--amarelo); 
-  
+  background-color: var(--amarelo);
+
 }
+
 .text-yellow {
   color: var(--amarelo);
 }
+
 .bg-dark {
   background-color: var(--preto);
 }
@@ -62,8 +78,17 @@ ul {
 
 }
 
+.border-name {
+  border: none;
+}
+
 .rounded {
   border-radius: 8px;
+}
+
+.material-icons {
+  font-size: 25px;
+  color: var(--branco);
 }
 
 .padding {
@@ -105,7 +130,8 @@ body {
 
 ul {
   display: flex;
-  flex-direction: column; /* um embaixo do outro */
+  flex-direction: column;
+  /* um embaixo do outro */
   padding-left: 0px;
 }
 
@@ -115,15 +141,16 @@ ul {
   color: var(--branco);
   padding: 20px;
   min-height: 100vh;
-  
+
 }
+
 .cadastro-sidebar {
   width: 25%;
   background-color: var(--preto);
   color: var(--branco);
-  padding: 20px;
+  padding: 4%;
   min-height: 100vh;
-  
+
 }
 
 
@@ -131,4 +158,36 @@ ul {
   position: fixed;
   right: 0;
   top: 0;
+}
+
+
+.pe-name {
+  padding-left: 0px;
+}
+
+.pb-4 {
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.align-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.justify-content {
+   display: flex; 
+   align-items: center;
+ 
+}
+
+.justify-content-end {
+display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.me-4 {
+  margin-right: 4%;
 }
